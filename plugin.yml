@@ -1,0 +1,15 @@
+name: KitPvP
+main: me.connor.kitpvp.KitPvP
+version: 1.0
+author: ThatBritishGuy
+commands:
+  TimeLock:
+    description: About TimeLock
+  tl:
+    description: Lock the time.
+    usage: /<command> <day|night|tick|normal|set|refresh>
+permissions:
+  timelock.admin:
+      description: Access to TL commands.
+      default: falses
+
